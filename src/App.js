@@ -1,166 +1,113 @@
-import './App.css';
+import "./App.css";
+import Menu from "./component/Menu";
+import MenuItem from "./component/MenuItem";
 
 function App() {
   return (
     <ul class="drop-down-menu">
-      <p>Drop Down Menu!</p>
+      <h3>Drop Down Menu!</h3>
       <li>
-        <a href="#">menu 1</a>
+        <Menu name="Menu 1" href="#"></Menu>
         <ul>
           <li>
-            <a href="#">menu 1-1</a>
+            <Menu name="menu 1-1"></Menu>
             <ul>
-              <li>
-                <a href="#">menu 1-1-1</a>
-                <ul>
-                  <li>
-                    <a href="#">menu 1-1-1-1</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">menu 1-1-2</a>
-              </li>
-              <li>
-                <a href="#">menu 1-1-3</a>
-              </li>
+              <MenuItem name="menu 1-1-1"></MenuItem>
+              <MenuItem name="menu 1-1-2"></MenuItem>
+              <MenuItem name="menu 1-1-3"></MenuItem>
             </ul>
           </li>
           <li>
-            <a href="#">menu 1-2</a>
+            <MenuItem name="menu 1-2"></MenuItem>
             <ul>
-              <li>
-                <a href="#">menu 1-2-1</a>
-              </li>
-              <li>
-                <a href="#">menu 1-2-2</a>
-              </li>
+              <MenuItem name="menu 1-2-1"></MenuItem>
+              <MenuItem name="menu 1-2-2"></MenuItem>
             </ul>
           </li>
           <li>
-            <a href="#">menu 1-3</a>
+            <MenuItem name="menu 1-3"></MenuItem>
+            <ul>
+              <MenuItem name="menu 1-3-1"></MenuItem>
+            </ul>
+          </li>
+          <MenuItem name="menu 1-4"></MenuItem>
+        </ul>
+      </li>
+      <li>
+        <Menu name="Menu 2" href="#"></Menu>
+        <ul>
+          <li>
+            <MenuItem name="menu 2-1"></MenuItem>
+            <ul>
+              <MenuItem name="menu 2-1-1"></MenuItem>
+            </ul>
+          </li>
+          <MenuItem name="menu 2-2"></MenuItem>
+        </ul>
+      </li>
+      <li>
+        <Menu name="Menu 3" href="#"></Menu>
+        <ul>
+          <li>
+            <MenuItem name="menu 3-1"></MenuItem>
+            <ul>
+              <MenuItem name="menu 3-1-1"></MenuItem>
+              <MenuItem name="menu 3-1-2"></MenuItem>
+            </ul>
           </li>
           <li>
-            <a href="#">menu 1-4</a>
+            <MenuItem name="menu 3-2"></MenuItem>
+          </li>
+          <li>
+            <MenuItem name="menu 3-3"></MenuItem>
+            <ul>
+              <MenuItem name="menu 3-3-1"></MenuItem>
+              <MenuItem name="menu 3-3-2"></MenuItem>
+            </ul>
           </li>
         </ul>
       </li>
       <li>
-        <a href="#">menu 2</a>
+        <Menu name="Menu 4" href="#"></Menu>
         <ul>
           <li>
-            <a href="#">menu 2-1</a>
-          </li>
-          <li>
-            <a href="#">menu 2-2</a>
-          </li>
-          <li>
-            <a href="#">menu 2-3</a>
-          </li>
-          <li>
-            <a href="#">menu 2-4</a>
+            <MenuItem name="menu 4-1"></MenuItem>
           </li>
         </ul>
       </li>
       <li>
-        <a href="#">menu 3</a>
+        <Menu name="Menu 5" href="#"></Menu>
         <ul>
           <li>
-            <a href="#">menu 3-1</a>
+            <MenuItem name="menu 5-1"></MenuItem>
           </li>
           <li>
-            <a href="#">menu 3-2</a>
-          </li>
-          <li>
-            <a href="#">menu 3-3</a>
-          </li>
-          <li>
-            <a href="#">menu 3-4</a>
+            <MenuItem name="menu 5-2"></MenuItem>
+            <ul>
+              <MenuItem name="menu 5-2-1"></MenuItem>
+            </ul>
           </li>
         </ul>
       </li>
       <li>
-        <a href="#">menu 4</a>
+        <Menu name="Menu 6" href="#"></Menu>
         <ul>
           <li>
-            <a href="#">menu 4-1</a>
+            <MenuItem name="menu 6-1"></MenuItem>
+            <ul>
+              <MenuItem name="menu 6-1-1"></MenuItem>
+            </ul>
           </li>
           <li>
-            <a href="#">menu 4-2</a>
+            <MenuItem name="menu 6-2"></MenuItem>
           </li>
           <li>
-            <a href="#">menu 4-3</a>
-          </li>
-          <li>
-            <a href="#">menu 4-4</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">menu 5</a>
-        <ul>
-          <li>
-            <a href="#">menu 5-1</a>
-          </li>
-          <li>
-            <a href="#">menu 5-2</a>
-          </li>
-          <li>
-            <a href="#">menu 5-3</a>
-          </li>
-          <li>
-            <a href="#">menu 5-4</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">menu 6</a>
-        <ul>
-          <li>
-            <a href="#">menu6-1</a>
-          </li>
-          <li>
-            <a href="#">menu 6-2</a>
-          </li>
-          <li>
-            <a href="#">menu 6-3</a>
-          </li>
-          <li>
-            <a href="#">menu 6-4</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">menu 7</a>
-        <ul>
-          <li>
-            <a href="#">menu 7-1</a>
-          </li>
-          <li>
-            <a href="#">menu 7-2</a>
-          </li>
-          <li>
-            <a href="#">menu 7-3</a>
-          </li>
-          <li>
-            <a href="#">menu 7-4</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">menu 8</a>
-        <ul>
-          <li>
-            <a href="#">menu 8-1</a>
-          </li>
-          <li>
-            <a href="#">menu 8-2</a>
-          </li>
-          <li>
-            <a href="#">menu 8-3</a>
-          </li>
-          <li>
-            <a href="#">menu 8-4</a>
+            <MenuItem name="menu 6-3"></MenuItem>
+            <ul>
+              <MenuItem name="menu 6-3-1"></MenuItem>
+              <MenuItem name="menu 6-3-2"></MenuItem>
+              <MenuItem name="menu 6-3-3"></MenuItem>
+            </ul>
           </li>
         </ul>
       </li>
