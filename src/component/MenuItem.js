@@ -6,7 +6,7 @@ import "../App.css";
 function MenuItem(props) {
   return (
       <li>
-        <a href={props.href}>{props.name+" "}{props.num}</a>
+        <a href={props.href}>{props.name}{props.num}</a>
       </li>
       
   );

@@ -7,10 +7,10 @@ function App() {
     <ul class="drop-down-menu">
       <h3>Drop Down Menu!</h3>
       <li>
-        <Menu name="Menu 1" href="#"></Menu>
+        <Menu name="Menu 1" href="#" num="4"></Menu>
         <ul>
           <li>
-            <Menu name="menu 1-1"></Menu>
+            <Menu name="Menu 1-1" href="#"></Menu>
             <ul>
               <MenuItem name="menu 1-1-1"></MenuItem>
               <MenuItem name="menu 1-1-2"></MenuItem>
@@ -18,19 +18,19 @@ function App() {
             </ul>
           </li>
           <li>
-            <MenuItem name="menu 1-2"></MenuItem>
+          <Menu name="Menu 1-2" href="#" num="4"></Menu>
             <ul>
               <MenuItem name="menu 1-2-1"></MenuItem>
               <MenuItem name="menu 1-2-2"></MenuItem>
             </ul>
           </li>
           <li>
-            <MenuItem name="menu 1-3"></MenuItem>
+          <Menu name="Menu 1-3" href="#" num="4"></Menu>
             <ul>
               <MenuItem name="menu 1-3-1"></MenuItem>
             </ul>
           </li>
-          <MenuItem name="menu 1-4"></MenuItem>
+          <Menu name="Menu 1-4" href="#" num="4"></Menu>
         </ul>
       </li>
       <li>
